@@ -1,0 +1,665 @@
+* {
+    box-sizing: border-box;
+}
+
+.main-header {
+    width: 100%;
+    background: #8d919c url("../img/header-bg.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.main-header li a.menu {
+    color: #ffffff;
+}
+
+.navbar {
+    background-color: transparent;
+    border-color: transparent;
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.blue-color {
+    background-color: #00a5ff;
+}
+
+.navbar .nav {
+    margin-top: 10px;
+}
+
+.navbar .nav li {
+    margin-left: 20px;
+}
+
+.main-header h1 {
+    margin-top: 284px;
+    margin-left: 26px;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 23px;
+    color: #ffffff;
+    font-family: "Lora", serif;
+}
+
+.main-header h3 {
+    color: #ffffff;
+    margin-top: 58px;
+    margin-left: 30px;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 23px;
+    font-family: "Open Sans", "Arial", sans-serif;
+}
+
+.btn {
+    box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.25);
+    margin-top: 81px;
+    margin-left: 31px;
+    margin-bottom: 150px;
+    padding: 25px 50px;
+    padding-left: 71px;
+    border-radius: 36px;
+    background-color: #00a5ff;
+    border: none;
+    color: #ffffff;
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 23px;
+}
+
+.our-services {
+    border-top: 1px solid #ffffff;
+    background-color: #ffffff;
+}
+
+.main-section h2 {
+    text-align: center;
+    position: relative;
+    margin-top: 78px;
+    margin-left: 28px;
+    color: #3a3f4b;
+    font-family: "Lora", serif;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 23px;
+    text-transform: uppercase;
+}
+
+.main-section h2::after {
+    content: "";
+    width: 147px;
+    height: 4px;
+    background-color: #00a5ff;
+    position: absolute;
+    top: 56px;
+    left: 50%;
+    margin-left: -73px;
+}
+
+.our-services ul {
+    margin-top: 124px;
+    margin-left: -35px;
+    list-style-type: none;
+    text-align: center;
+}
+
+.circle {
+    display: inline-block;
+    border-radius: 50%;
+    width: 81px;
+    height: 81px;
+    background-color: #f4f5f7;
+    position: relative;
+}
+
+.circle img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.our-services h4 {
+    position: relative;
+    margin-top: 11px;
+    color: #3a3f4b;
+    font-family: "Source Sans Pro", "Arial" sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.our-services h4::after {
+    position: absolute;
+    content: "";
+    width: 41px;
+    height: 1px;
+    border: 1px solid #6a6a6a;
+    top: 35px;
+    left: 50%;
+    margin-left: -20px;
+}
+
+.our-services p {
+    margin-top: 30px;
+    margin-bottom: 95px;
+    color: #999999;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 20px;
+    font-family: "Open Sans", "Arial", sans-serif;
+}
+
+.to-left {
+    margin-left: 30px;
+}
+
+.portfolio {
+    border-top: 1px solid #f5f6f8;
+    background-color: #f5f6f8;
+}
+
+.portfolio h2 {
+    margin-top: 48px;
+}
+
+.portfolio-content {
+    margin-top: 85px;
+}
+
+.portfolio-menu {
+    margin-bottom: 42px;
+}
+
+.portfolio-menu .button {
+    font-family: "Open Sans", "Arial", sans-serif;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #999999;
+    text-transform: uppercase;
+    margin-left: 40px;
+}
+
+.portfolio-menu .button:hover {
+    color: #000000;
+}
+
+.portfolio-menu .is-checked {
+    color: #00a5ff;
+    position: relative;
+}
+
+.portfolio-menu .is-checked::after {
+    position: absolute;
+    content: "";
+    background-color: #63b7e6;
+    height: 1px;
+    left: 4px;
+    right: 4px;
+    top: 26px;
+}
+
+.portfolio-items p {
+    position: relative;
+}
+
+.portfolio-text {
+    position: absolute;
+    top: -10px;
+    padding-left: 34px;
+    padding-top: 30px;
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 3px;
+    width: 99%;
+    color: #999999;
+    height: 76px;
+    background-color: #f4f5f9;
+    border: 2px solid #e6e7e9;
+    border-top: none;
+}
+
+.item:hover {
+    transform: scale(1.07);
+}
+
+.portfolio-items .item:hover .portfolio-text {
+    color: #63b7e6;
+}
+
+.portfolio-items a {
+    text-decoration: none;
+}
+
+.portfolio .btn {
+    margin-top: 70px;
+    margin-bottom: 80px;
+    padding: 20px 63px;
+    text-transform: uppercase;
+}
+
+.brands {
+    border-top: 1px solid #ffffff;
+}
+
+.brands h2 {
+    margin-top: 75px;
+    margin-left: 30px;
+}
+
+.brands li:hover {
+    transform: scale(1.2);
+}
+
+.brands ul {
+    margin-top: 117px;
+    margin-bottom: 322px;
+    list-style: none;
+    text-align: center;
+}
+
+.about-us {
+    border-top: 1px solid #f5f6f8;
+    background-color: #f5f6f8;
+}
+
+.about-us h2 {
+    margin-top: 69px;
+    margin-left: 30px;
+}
+
+.about-us .carousel {
+    margin-top: 263px;
+    margin-bottom: 143px;
+    position: relative;
+}
+
+.carousel-indicators {
+    position: absolute;
+    top: -170px;
+}
+
+.carousel-indicators li {
+    width: 109px;
+    height: 109px;
+    opacity: 0.5;
+    border-radius: 50%;
+    margin-left: 70px;
+}
+
+.carousel-inner p {
+    margin-bottom: 35px;
+    color: #3a3f4b;
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 24px;
+    font-family: "Lora", serif;
+}
+
+.carousel-inner span {
+    font-size: 18px;
+    color: #3a3f4b;
+    font-weight: 400;
+    font-family: "Open Sans", "Arial", sans-serif;
+}
+
+.carousel-inner a {
+    color: #3a3f4b;
+    text-decoration: underline;
+}
+
+.carousel-indicators li img {
+    border-radius: 50%;
+}
+
+.carousel-indicators li.active {
+    width: 109px;
+    height: 109px;
+    border-radius: 50%;
+    opacity: 1;
+    margin-left: 70px;
+    transform: scale(1.2);
+}
+
+#myCarousel .carousel-control {
+    color: #7c8ca0;
+    background: none;
+    text-shadow: none;
+    position: absolute;
+    top: -30px;
+    font-size: 40px;
+}
+
+#myCarousel .carousel-control:hover {
+    color: #00a5ff;
+}
+
+.contact-us {
+    background-color: #3b404c;
+    color: #ffffff;
+    padding-top: 64px;
+}
+
+.contact-us h3 {
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 24px;
+    font-family: "Lora", serif;
+    margin-bottom: 130px;
+}
+
+.contact-us h4 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: uppercase;
+    font-family: "Open Sans", "Arial", sans-serif;
+}
+
+.contact-left-info {
+    margin-bottom: 58px;
+}
+
+.contact-left-info p {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #999999;
+}
+
+.contact-left-info .contact-number {
+    margin-top: 0;
+}
+
+.contact-top {
+    margin-top: 5px;
+}
+
+.contact-us a {
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 43px;
+    color: #ffffff;
+}
+
+.contact-us .nav>li>a:hover, .contuct-us .nav>li>a:active {
+    text-decoration: none;
+    background-color: transparent;
+    color: #00a5ff;
+}
+
+.contact-form {
+    margin-top: 90px;
+    margin-left: 12px;
+}
+
+.contact-form label {
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 39px;
+    color: #ffffff;
+}
+
+.contact-form input {
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 26px;
+    background-color: transparent;
+    font-weight: 400;
+    line-height: 39px;
+    max-width: 360px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    margin-bottom: 50px;
+    border-bottom: 2px solid #999999;
+    color: #ffffff;
+}
+
+.contact-form .to-right {
+    margin-left: 25px;
+}
+
+.contact-form input:focus {
+    border-bottom: 2px solid #00a5ff;
+}
+
+.contact-form textarea {
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 26px;
+    background-color: transparent;
+    font-weight: 400;
+    line-height: 39px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #999999;
+    color: #ffffff;
+}
+
+.contact-form textarea:active {
+    border-bottom: 2px solid #00a5ff;
+}
+
+.contact-form .btn {
+    margin-top: 28px;
+    padding: 20px 55px;
+    margin-bottom: 71px;
+    margin-left: 0px;
+}
+
+.main-footer {
+    background-color: #ffffff;
+}
+
+.main-footer .top {
+    margin-top: 30px;
+    margin-bottom: 28px;
+}
+
+.main-footer p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #999999;
+}
+
+.social-links {
+    list-style-type: none;
+    margin-left: 50px;
+}
+
+.social-links li {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 5px;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #999999;
+    margin-left: 8px;
+}
+
+.social-links a {
+    color: #ffffff;
+}
+
+.social-links a:hover {
+    color: #00a5ff;
+}
+
+.scroll-up {
+    position: fixed;
+    z-index: 10;
+    width: 67px;
+    height: 67px;
+    border-radius: 50%;
+    bottom: 50px;
+    right: 30px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.25);
+    background-color: #00a5ff;
+    font-size: 34px;
+    line-height: 67px;
+    color: #ffffff;
+    text-align: center;
+    display: none;
+}
+
+.scroll-up:hover {
+    color: #3a3f4b;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 1200px) {
+    .our-services ul {
+        margin-left: -30px;
+    }
+    .to-left {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .main-header h1 {
+        font-size: 44px;
+        line-height: 52px;
+        margin-left: 0;
+    }
+    .main-header h3 {
+        font-size: 20px;
+        margin-left: 0;
+    }
+    .main-section h2 {
+        font-size: 36px;
+        line-height: 42px;
+        margin-left: 0;
+    }
+    .portfolio-text {
+        height: 56px;
+        font-size: 12px;
+        line-height: 14px;
+        padding-top: 20px;
+        padding-left: 24px;
+        margin-left: 1px;
+    }
+    .carousel-indicators li {
+        margin-left: 30px;
+        width: 70px;
+        height: 70px;
+    }
+    .carousel-indicators li.active {
+        width: 89px;
+        height: 89px;
+        margin-left: 30px;
+    }
+    .contact-us a {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .contact-form .to-right {
+        margin-left: 0;
+    }
+    .social-links {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        background-color: #00a5ff;
+    }
+    .navbar img {
+        margin-top: -10px;
+    }
+    .btn {
+        padding: 20px 40px;
+        font-size: 20px;
+        margin-left: 0;
+    }
+    .portfolio-menu .button {
+        margin-left: 0px;
+        line-height: 24px;
+    }
+    .main-section img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .portfolio-text {
+        max-width: 382px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .item {
+        margin-top: 40px;
+    }
+    .brands h2, .about-us h2 {
+        margin-top: 30px;
+        margin-left: 0;
+    }
+    .brands h2:after, .about-us h2::after {
+        top: 100px;
+    }
+    .brands img {
+        margin-top: 60px;
+    }
+    .brands ul {
+        margin-top: 20px;
+    }
+    .brands {
+        padding-bottom: 70px;
+    }
+    .carousel-indicators li {
+        margin-left: 20px;
+        width: 60px;
+        height: 60px;
+    }
+    .carousel-indicators li.active {
+        width: 79px;
+        height: 79px;
+        margin-left: 20px;
+    }
+    .carousel-inner p {
+        line-height: 23px;
+        font-size: 18px;
+    }
+    .contact-us a {
+        font-size: 21px;
+        line-height: 43px;
+        text-align: center;
+    }
+    .about-us .carousel {
+        margin-bottom: 80px;
+    }
+    .contact-top {
+        margin-top: -50px;
+    }
+    .contact-us h3 {
+        margin-bottom: 70px;
+    }
+    .contact-left-info p {
+        margin-top: 10px;
+    }
+    .social-links li {
+        margin-left: 2px;
+    }
+    .scroll-up {
+        bottom: 20px;
+        right: 10px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .brands h2:after, .about-us h2::after {
+        top: 170px;
+    }
+}
